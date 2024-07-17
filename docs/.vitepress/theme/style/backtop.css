@@ -1,0 +1,15 @@
+.go-to-top[data-v-09295527] {
+    border-radius: 40%;
+}
+
+.dark {
+    .go-to-top[data-v-09295527] {
+
+        background-color: #5672cd;
+        box-shadow: 0 2px 12px #3a5ccc;
+    }
+
+    .go-to-top[data-v-09295527]:hover {
+        background-color: #3451b2;
+    }
+}
