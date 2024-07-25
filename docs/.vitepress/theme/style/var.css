@@ -16,7 +16,12 @@
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 }
+
 /* 取消链接下划线 */
 .vp-doc a {
     text-decoration: none;
+}
+/* info框背景颜色 */
+:root {
+    --vp-custom-block-info-bg: var(--vp-c-green-soft);
 }
