@@ -13,7 +13,7 @@ export default withMermaid({
 
   // markdown配置
   markdown: {
-    theme: 'material-theme-palenight',
+    // theme: 'material-theme-palenight',
     lineNumbers: true,
   },
 
