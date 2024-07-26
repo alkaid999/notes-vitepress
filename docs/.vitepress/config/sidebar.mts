@@ -7,9 +7,11 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     '/nodes/linux/': [
         {
             collapsed: false, // 折叠侧边栏
-            text: 'Linux 介绍',
+            text: '入门',
             items: [
-                { text: '简介', link: '/linux/seaci.md' },
+                { text: 'Linux 简介', link: '/nodes/linux/01_introduction/01.md' },
+                { text: '开源软件', link: '/nodes/linux/01_introduction/02.md' },
+                { text: '环境搭建', link: '/nodes/linux/01_introduction/03.md' },
             ],
         },
     ],
