@@ -1,7 +1,7 @@
 import DefaultTheme from "vitepress/theme";
-// 导入返回顶部插件
-import vitepressBackToTop from 'vitepress-plugin-back-to-top'
-import 'vitepress-plugin-back-to-top/dist/style.css'
+// 使用插槽 backTop 组件
+import { h } from 'vue'
+import backTop from "./components/backTop.vue"
 // 导入自定义样式
 import './style/index.css';
 // 导入图片放大插件
@@ -12,10 +12,9 @@ import { useRoute } from 'vitepress';
 export default {
   extends: DefaultTheme,
   // 返回顶部插件设置
-  enhanceApp({ app }) {
-    vitepressBackToTop({
-      // default
-      threshold: 300
+  Layout() { 
+    return h(DefaultTheme.Layout, null, {
+      'doc-footer-before': () => h(backTop), // 使用doc-footer-before插槽
     })
   },
   // 图片放大插件
