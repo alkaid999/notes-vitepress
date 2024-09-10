@@ -9,7 +9,7 @@ export default withMermaid({
   title: "首页",
   description: "知识库",
   lang: 'zh-CH',
-  head: [['link', { rel: 'icon', href: '/images/headicon.jpg' }]],
+  head: [['link', { rel: 'icon', href: '/images/headicon.png' }]],
 
   // markdown配置
   markdown: {
