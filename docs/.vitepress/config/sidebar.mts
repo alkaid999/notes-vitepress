@@ -18,12 +18,22 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             ],
         },
         {
+            collapsed: true, // 折叠侧边栏
+            text: 'Linux 基础概念',
+            items: [
+                { text: '终端', link: '/nodes/linux/02_LinuxConc/01.md' },
+                { text: '命令', link: '/nodes/linux/02_LinuxConc/02.md' },
+                { text: 'Shell', link: '/nodes/linux/02_LinuxConc/03.md' },
+                { text: '环境变量', link: '/nodes/linux/02_LinuxConc/04.md' },
+            ],
+        },
+        {
             collapsed: true,
             text: '文件与目录管理',
             items: [
-                { text: '文件系统基础概念', link: '/nodes/linux/02_DirMan/01.md' },
-                { text: '文件和目录', link: '/nodes/linux/02_DirMan/02.md' },
-                { text: '终端与命令行', link: '/nodes/linux/02_DirMan/03.md' },
+                { text: '文件系统基础概念', link: '/nodes/linux/03_DirMan/01.md' },
+                { text: '文件和目录', link: '/nodes/linux/03_DirMan/02.md' },
+                { text: '基础文件操作命令', link: '/nodes/linux/03_DirMan/03.md' },
             ],
         },
     ],
