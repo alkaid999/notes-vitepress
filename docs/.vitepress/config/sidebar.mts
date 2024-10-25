@@ -36,6 +36,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
                 { text: '基础文件操作命令', link: '/nodes/linux/03_DirMan/03.md' },
             ],
         },
+        {
+            collapsed: true,
+            text: '软件管理',
+            items: [
+                { text: '软件包', link: '/nodes/linux/04_Software/01.md' },
+                { text: 'RPM 包管理系统', link: '/nodes/linux/04_Software/02.md' },
+            ],
+        },
     ],
 
     // ...其他侧边栏配置
