@@ -42,6 +42,9 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             items: [
                 { text: '软件包', link: '/nodes/linux/04_Software/01.md' },
                 { text: 'RPM 包管理系统', link: '/nodes/linux/04_Software/02.md' },
+                { text: 'YUM/DNF 包管理器', link: '/nodes/linux/04_Software/03.md' },
+                { text: '源码包管理', link: '/nodes/linux/04_Software/04.md' },
+                { text: '从源码包构建 RPM 包', link: '/nodes/linux/04_Software/05.md' },
             ],
         },
     ],
