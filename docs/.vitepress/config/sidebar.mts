@@ -34,6 +34,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
                 { text: '文件系统基础概念', link: '/nodes/linux/03_DirMan/01.md' },
                 { text: '文件和目录', link: '/nodes/linux/03_DirMan/02.md' },
                 { text: '基础文件操作命令', link: '/nodes/linux/03_DirMan/03.md' },
+                { text: '打包和压缩', link: '/nodes/linux/03_DirMan/04.md' },
             ],
         },
         {
